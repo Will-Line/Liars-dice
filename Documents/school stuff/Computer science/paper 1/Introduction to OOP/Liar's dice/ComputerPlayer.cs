@@ -1,4 +1,4 @@
-public class ComputerPlayer : Player
+class ComputerPlayer : Player
 {
 
 }

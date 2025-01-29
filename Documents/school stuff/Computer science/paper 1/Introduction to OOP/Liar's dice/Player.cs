@@ -1,4 +1,4 @@
-public abstract class Player
+class Player
 {
     private Cup cup;
     public int diceNum;
@@ -10,8 +10,14 @@ public abstract class Player
         cup.rollDie();
     }
 
-    public Bet MakeBet()
+    public Bet MakeBet(Bet lastBet, int gameDiceLeft)
     {
-        
+        Bet bet = new Bet();
+        return bet;
+    }
+
+    private bool CheckValidBet(Bet lastBet, int gameDiceLeft)
+    {
+
     }
 }
