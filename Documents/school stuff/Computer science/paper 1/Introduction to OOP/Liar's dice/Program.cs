@@ -4,5 +4,7 @@
     {
         Console.WriteLine("Enter your player number");
         Game game=new Game(Convert.ToInt32(Console.ReadLine()));
+
+        game.GameRun();
     }
 }
